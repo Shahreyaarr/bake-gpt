@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "name": "bake-gpt",
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Developed-By",
+          "value": "Shahreyarr - MSc Cyber Security, Amity University"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "bake-gpt",
+  "version": "1.0.0",
+  "description": "Bake-GPT Premium Bakery Website - Developed by Shahreyarr, MSc Cyber Security, Amity University",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "bakery",
+    "website",
+    "ecommerce",
+    "html",
+    "tailwindcss",
+    "vercel"
+  ],
+  "author": "Shahreyarr <MSc Cyber Security, Amity University>",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^latest"
+  }
+}
